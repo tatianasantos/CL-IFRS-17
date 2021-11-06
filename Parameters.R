@@ -113,7 +113,7 @@ Post_Mom_DV_B <- data.frame("mu1" = c(0.057677925327730382, 0.062264534435479600
 # The curve to be applied is EIOPA's RFR + VA as at 31 December 2017
 # Read and store the curve into a variable Data_RFR
 # Determine the cash flows for each case: RBNS, IBNR and CBNI
-Data_RFR <- read.xlsx("C:/Users/tmarques011/Documents/Pessoal/Article/ASTIN/Article/RFR+VA 31-12-2017.xlsx")
+Data_RFR <- read.xlsx("C:/Insertpath/RFR+VA 31-12-2017.xlsx")
 RFR <- Data_RFR[,2]
 
 Discount_factor <- Discount(RFR)
